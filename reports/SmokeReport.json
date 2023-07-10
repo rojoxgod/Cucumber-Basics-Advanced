@@ -1,0 +1,806 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "validate the browser",
+            "match": {
+              "location": "stepDefinition.stepDefinition.validateTheBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "browser is triggered",
+            "match": {
+              "location": "stepDefinition.stepDefinition.browserIsTriggered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "check if browser appeared",
+            "match": {
+              "location": "stepDefinition.stepDefinition.checkIfBrowserAppeared()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-10T16:24:21.041Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.hooks.BeforeSmokeTest()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.hooks.BeforeRegressionTest()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Homepage default login",
+        "description": "",
+        "id": "application-login;homepage-default-login",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.hooks.AfterRegressionTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user is on Banking landing page",
+            "match": {
+              "location": "stepDefinition.stepDefinition.userIsOnBankingLandingPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user login into app with username \"Rick\" and password \"000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rick\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"000\"",
+                  "offset": 54
+                }
+              ],
+              "location": "stepDefinition.stepDefinition.userLoginIntoAppWithUsernameAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "homepage is populated",
+            "match": {
+              "location": "stepDefinition.stepDefinition.homepageIsPopulated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "cards displayed \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"true\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinition.stepDefinition.cardsDisplayed(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "validate the browser",
+            "match": {
+              "location": "stepDefinition.stepDefinition.validateTheBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "browser is triggered",
+            "match": {
+              "location": "stepDefinition.stepDefinition.browserIsTriggered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "check if browser appeared",
+            "match": {
+              "location": "stepDefinition.stepDefinition.checkIfBrowserAppeared()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-10T16:24:21.063Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.hooks.BeforeSmokeTest()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Homepage default login",
+        "description": "",
+        "id": "application-login;homepage-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user is on Banking landing page",
+            "match": {
+              "location": "stepDefinition.stepDefinition.userIsOnBankingLandingPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user login into app with username \"John\" and password \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 54
+                }
+              ],
+              "location": "stepDefinition.stepDefinition.userLoginIntoAppWithUsernameAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "homepage is populated",
+            "match": {
+              "location": "stepDefinition.stepDefinition.homepageIsPopulated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "cards displayed \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"false\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinition.stepDefinition.cardsDisplayed(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "validate the browser",
+            "match": {
+              "location": "stepDefinition.stepDefinition.validateTheBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "browser is triggered",
+            "match": {
+              "location": "stepDefinition.stepDefinition.browserIsTriggered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "check if browser appeared",
+            "match": {
+              "location": "stepDefinition.stepDefinition.checkIfBrowserAppeared()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-10T16:24:21.073Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.hooks.BeforeSmokeTest()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Homepage default login",
+        "description": "",
+        "id": "application-login;homepage-default-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1001700,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user is on Banking landing page",
+            "match": {
+              "location": "stepDefinition.stepDefinition.userIsOnBankingLandingPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user login into application with username user1 and password 1111",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user1",
+                  "offset": 42
+                },
+                {
+                  "val": "1111",
+                  "offset": 61
+                }
+              ],
+              "location": "stepDefinition.stepDefinition.a_user_with_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "homepage is populated",
+            "match": {
+              "location": "stepDefinition.stepDefinition.homepageIsPopulated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "cards displayed \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"false\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinition.stepDefinition.cardsDisplayed(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "validate the browser",
+            "match": {
+              "location": "stepDefinition.stepDefinition.validateTheBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "browser is triggered",
+            "match": {
+              "location": "stepDefinition.stepDefinition.browserIsTriggered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "check if browser appeared",
+            "match": {
+              "location": "stepDefinition.stepDefinition.checkIfBrowserAppeared()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-10T16:24:21.081Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.hooks.BeforeSmokeTest()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "Homepage default login",
+        "description": "",
+        "id": "application-login;homepage-default-login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1003000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user is on Banking landing page",
+            "match": {
+              "location": "stepDefinition.stepDefinition.userIsOnBankingLandingPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user login into application with username user2 and password 2222",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user2",
+                  "offset": 42
+                },
+                {
+                  "val": "2222",
+                  "offset": 61
+                }
+              ],
+              "location": "stepDefinition.stepDefinition.a_user_with_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "homepage is populated",
+            "match": {
+              "location": "stepDefinition.stepDefinition.homepageIsPopulated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "cards displayed \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"false\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinition.stepDefinition.cardsDisplayed(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "validate the browser",
+            "match": {
+              "location": "stepDefinition.stepDefinition.validateTheBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "browser is triggered",
+            "match": {
+              "location": "stepDefinition.stepDefinition.browserIsTriggered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "check if browser appeared",
+            "match": {
+              "location": "stepDefinition.stepDefinition.checkIfBrowserAppeared()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-10T16:24:21.089Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.hooks.BeforeSmokeTest()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "Homepage default login",
+        "description": "",
+        "id": "application-login;homepage-default-login;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user is on Banking landing page",
+            "match": {
+              "location": "stepDefinition.stepDefinition.userIsOnBankingLandingPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user login into application with username user3 and password 3333",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user3",
+                  "offset": 42
+                },
+                {
+                  "val": "3333",
+                  "offset": 61
+                }
+              ],
+              "location": "stepDefinition.stepDefinition.a_user_with_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "homepage is populated",
+            "match": {
+              "location": "stepDefinition.stepDefinition.homepageIsPopulated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "cards displayed \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"false\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinition.stepDefinition.cardsDisplayed(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "validate the browser",
+            "match": {
+              "location": "stepDefinition.stepDefinition.validateTheBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "browser is triggered",
+            "match": {
+              "location": "stepDefinition.stepDefinition.browserIsTriggered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "check if browser appeared",
+            "match": {
+              "location": "stepDefinition.stepDefinition.checkIfBrowserAppeared()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-10T16:24:21.096Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.hooks.BeforeSmokeTest()"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "Homepage default login",
+        "description": "",
+        "id": "application-login;homepage-default-login;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user is on Banking landing page",
+            "match": {
+              "location": "stepDefinition.stepDefinition.userIsOnBankingLandingPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user login into application with username user4 and password 4444",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user4",
+                  "offset": 42
+                },
+                {
+                  "val": "4444",
+                  "offset": 61
+                }
+              ],
+              "location": "stepDefinition.stepDefinition.a_user_with_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "homepage is populated",
+            "match": {
+              "location": "stepDefinition.stepDefinition.homepageIsPopulated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "cards displayed \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"false\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinition.stepDefinition.cardsDisplayed(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Application login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/_01_Login.feature",
+    "tags": []
+  }
+]
